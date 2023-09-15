@@ -17,7 +17,6 @@
     "php-mohamed-nabil/style": "dev-master",
     "league/booboo": "dev-main",
     "spatie/ignition": "^1.9",
-    "php-mohamed-nabil/core":"dev-master",
     "httpsoft/http-server-request": "dev-master",
     "league/oauth2-facebook": "dev-main"
     },
