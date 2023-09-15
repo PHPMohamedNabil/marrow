@@ -2,9 +2,9 @@
 
 define('CoreStart',microtime());
 
-use App\Core\Request;
-use App\Core\Response;
-use App\Core\http\Kernal;
+use Core\Request;
+use Core\Response;
+use Core\http\Kernal;
 
 require('autoload.php');
 

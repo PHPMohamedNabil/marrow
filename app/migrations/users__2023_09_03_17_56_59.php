@@ -2,7 +2,7 @@
 
 namespace App\Migrations;
 
-use App\Core\Database\NativeDB;
+use Core\Database\NativeDB;
 
 class users__2023_09_03_17_56_59{
       

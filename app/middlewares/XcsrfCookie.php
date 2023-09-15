@@ -3,11 +3,11 @@
 namespace App\Middlewares;
 
 use Optimus\Onion\LayerInterface;
-use App\Core\Request;
-use App\Core\Response;
+use Core\Request;
+use Core\Response;
 use Closure;
 use RuntimeException;
-use App\Core\Cookie;
+use Core\Cookie;
 
 class XcsrfCookie implements LayerInterface
 {

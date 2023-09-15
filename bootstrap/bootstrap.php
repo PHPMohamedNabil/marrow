@@ -1,7 +1,7 @@
 <?php
 
 
-$app = new App\Core\App(new App\Core\Container\Container);
+$app = new Core\App(new Core\Container\Container);
 
 
 return $app;

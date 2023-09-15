@@ -48,7 +48,7 @@ function getModelString($model)
 
 namespace App\Models;
 
-use App\Core\Model;
+use Core\Model;
 
 class '.$model.' extends Model
 {  

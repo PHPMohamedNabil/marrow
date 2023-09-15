@@ -50,7 +50,7 @@ function getMigrationString($migration_name)
 
 namespace App\Migrations;
 
-use App\Core\Database\NativeDB;
+use Core\Database\NativeDB;
 
 class '.$migration_name.'{
       

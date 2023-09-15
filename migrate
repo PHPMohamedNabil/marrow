@@ -8,7 +8,7 @@ define('PUBLIC_PATH',ROOT_PATH.'public'.DS);
 require_once 'app/config/config_constants.php';
 require_once 'vendor/autoload.php';
 
-use App\Core\Database\NativeDB;
+use Core\Database\NativeDB;
 use Dotenv\Dotenv;
 
 Dotenv::createMutable(ROOT_PATH)->load();

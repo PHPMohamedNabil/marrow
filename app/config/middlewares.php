@@ -1,6 +1,5 @@
 <?php
-use App\Core\Http\Middleware\valid;
-use App\Core\Http\Middleware\valid_2;
+
 use App\Middlewares\csrf;
 use App\Middlewares\PostSize;
 use App\Middlewares\test;

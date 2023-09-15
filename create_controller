@@ -76,7 +76,7 @@ function getConrolerString($controller)
 
 namespace App\Controllers;
 
-use App\Core\Controller;
+use Core\Controller;
 use Style\Style;
 
 class '.$controller.' extends Controller
@@ -117,7 +117,7 @@ function getConrolerResourceString($controller)
 
 namespace App\Controllers;
 
-use App\Core\Controller;
+use Core\Controller;
 use Style\Style;
 
 class '.$controller.' extends Controller
@@ -193,7 +193,7 @@ function getModelString($model,$return_name=false)
 
 namespace App\Models;
 
-use App\Core\Model;
+use Core\Model;
 
 class '.$model.' extends Model
 {  

@@ -2,7 +2,7 @@
 
 namespace App\Middlewares;
 use Optimus\Onion\LayerInterface;
-use App\Core\Request;
+use Core\Request;
 use App\Traits\JwtAuthTrait;
 use Closure;
 use RuntimeException;
