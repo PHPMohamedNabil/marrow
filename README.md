@@ -1,3 +1,4 @@
-# php-google-login
-It is an mvc example project for login with google api web pplication
-"# PHP-Navtive-JWT-API" 
+# Core php framwork skeleton project:
+
+to see how this project work go to framwork documentation repo:
+https://github.com/PHPMohamedNabil/core-framework/
