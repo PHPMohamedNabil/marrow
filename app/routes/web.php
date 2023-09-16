@@ -1,5 +1,5 @@
 <?php
-use App\Core\Route\Router as Route;
+use Core\Route\Router as Route;
 
 
 Route::get('/','start');
