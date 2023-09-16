@@ -28,5 +28,5 @@
        "App\\": "app/"
      }
   },
-    "minimum-stability": "dev-main"
+    "minimum-stability": "dev"
 }
