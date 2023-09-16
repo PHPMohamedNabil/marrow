@@ -1,6 +1,6 @@
 {
-  "name": "php-mohamed-nabil/core",
-  "description": "core mvc frameworek new skeleton project",
+  "name": "php-mohamed-nabil/marrow",
+  "description": "marrow mvc frameworek new skeleton project",
   "keywords": ["mvc","php","api","oop","php8","mysql"],
   "type": "project",
   "require": {
@@ -15,7 +15,7 @@
     "doctrine/inflector": "2.0.x-dev",
     "symfony/password-hasher": "5.4.x-dev",
     "php-mohamed-nabil/style": "dev-master",
-    "php-mohamed-nabil/core-framework": "dev-main",
+    "php-mohamed-nabil/marrow-framework": "dev-main",
     "league/booboo": "dev-main",
     "spatie/ignition": "^1.9",
     "httpsoft/http-server-request": "dev-master",
