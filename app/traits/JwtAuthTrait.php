@@ -7,7 +7,7 @@
 
 namespace App\Traits;
 
-use App\Core\Database\NativeDB;
+use Core\Database\NativeDB;
 use App\Model\User;
 
 trait JwtAuthTrait{
