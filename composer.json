@@ -15,6 +15,7 @@
     "doctrine/inflector": "2.0.x-dev",
     "symfony/password-hasher": "5.4.x-dev",
     "php-mohamed-nabil/style": "dev-master",
+    "php-mohamed-nabil/core-framework ": "dev-main",
     "league/booboo": "dev-main",
     "spatie/ignition": "^1.9",
     "httpsoft/http-server-request": "dev-master",
