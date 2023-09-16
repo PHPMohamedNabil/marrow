@@ -2,10 +2,10 @@
 
 namespace App\Traits;
 
-use App\Core\Database\NativeDB;
+use Core\Database\NativeDB;
 use App\Models\User;
 use App\Traits\JwtAuthTrait;
-use App\Core\Request;
+use Core\Request;
 
 trait AuthUserApiTrait{
 
