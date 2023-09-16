@@ -4,10 +4,10 @@ namespace App\Startups;
 
 use App\Repositories\UserRepositoryInterface;
 use App\Repositories\UserRepository;
-use App\Core\Container\Container;
+use Core\Container\Container;
 use App\Startups\StartupInterface;
-use App\Core\Database\NativeDB;
-use App\Core\Request;
+use Core\Database\NativeDB;
+use Core\Request;
 class UserStartup implements StartupInterface
 {
    
