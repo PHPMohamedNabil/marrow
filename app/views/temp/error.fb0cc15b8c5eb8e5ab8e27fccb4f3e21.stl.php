@@ -33,13 +33,8 @@ body{
 	  vertical-align: middle;
 }
 
-<<<<<<< HEAD
-.fof p{
-	  font-size: 20px;
-=======
 .fof h1{
 	  font-size: 50px;
->>>>>>> 76cce3e2040abcaa87f3c8c1ad9606373c84bd60
 	  display: inline-block;
 	  padding-right: 12px;
 	  animation: type .5s alternate infinite;
@@ -52,27 +47,15 @@ body{
 </style>
 <div id="main">
 <div class="fof">
-<<<<<<< HEAD
-
-        		  <center><img src="{%upload('marrow.png')%}"></center>
+        		<h1>Error :<?php echo _esc($message);?></h1>
         		<center>
-              
-=======
-        		<h1>Core MVC to build  tiny-mid apps</h1>
-        		<center>
->>>>>>> 76cce3e2040abcaa87f3c8c1ad9606373c84bd60
-			<p>Go to app folder create controllers,models and essential startups start build your app from now</p>
+        			<p>
+        				Response Code : <?php echo _esc($respond);?>
+        			</p>
+			<a href="/" class="link_404">Go to Home</a>
 		</center>
  </div>
     	
 </div>
-<<<<<<< HEAD
-<footer>
-	See documentation from github repository: <a href="https://github.com/PHPMohamedNabil/marrow-framework/">marrow-framework</a>
-	<br>
-	<br>
-</footer>
-=======
->>>>>>> 76cce3e2040abcaa87f3c8c1ad9606373c84bd60
 </body>
 </html>
