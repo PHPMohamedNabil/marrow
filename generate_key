@@ -13,7 +13,8 @@ $app= require_once 'bootstrap'.DS.'bootstrap.php';
 
 if(php_sapi_name() =='cli')
 {  
-	$mask = hash_hmac('sha256',env('APP_NAME')??'Light','Light');
+	
+	$mask = hash_hmac('sha256',str_shuffle('ABCDEFGHIJKLOMNQRPTSWXYZabcdefghijklmnopqrstvwxyz0123456789f').mt_rand(0,100000)??'Light','Light');
 
 	print $mask;
 }
