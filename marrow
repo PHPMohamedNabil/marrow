@@ -1,0 +1,33 @@
+<?php
+define('CoreStart',microtime());
+//parent directories
+define('DS',DIRECTORY_SEPARATOR);
+define('ROOT_PATH',dirname(__FILE__).DS);
+define('APP',ROOT_PATH.'app'.DS);
+define('PUBLIC_PATH',ROOT_PATH.'public'.DS);
+
+require_once 'app/config/config_constants.php';
+require_once 'vendor/autoload.php';
+
+$server_port=isset($argv[1])?intval($argv[1]):'';
+ 
+if(php_sapi_name()=='cli')
+{
+	if($server_port)
+	{
+	   system('php -S localhost:'.$server_port.' -t public server.php');
+	}
+	else
+	{
+		system('php -S localhost:8000 -t public server.php');
+
+	}
+}
+
+die('');
+
+
+
+
+
+
